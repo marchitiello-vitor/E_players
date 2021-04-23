@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Titillium + Web: wght @ 700 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Titillium + Web: wght @ 400; 700 & display = swap');
+
+/*reset do css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+}
+
+.eplayers {
+    display: flex;
+    width: 315px;
+    height: 28px;
+    margin-right: 90px;
+}
+
+.menu_header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1E1C21;
+    align-items: center;
+    width: 1360px;
+    height: 110px;
+}
+
+.menu_header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+    background-image: linear-gradient(to right, #132252, #1B3362, #5DC3E6, #5DC3E6);
+    width: 1360px;
+    height: 420px;
+}
+
+.banner img {
+    width: 680px;
+    height: 420px;
+}
+
+.inscrevase {
+    margin: 75px 0px 0px 190px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    margin-left: 23px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.inscrevase a {
+    margin-left: 17%;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.botão {
+    display: flex;
+    align-items: center;
+    width: 155px;
+    height: 59px;
+    background-color: #C31616;
+    border-radius: 10px;
+    margin-left: 107px;
+    margin-top: 17px;
+}
+
+.jogos {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #1E1C21;
+    width: 1360px;
+    height: 90px;
+}
+
+.mortal_kombat {
+    width: 71px;
+    height: 70px;
+}
+
+.storm {
+    width: 171px;
+    height: 103px;
+}
+
+.cs {
+    width: 177px;
+    height: 70px;
+}
+
+.lol {
+    width: 155px;
+    height: 64px;
+}
+
+.nfs {
+    width: 171px;
+    height: 84px;
+}
+
+.sobre {
+    display: flex;
+    width: 1360px;
+    height: 568px;
+    background-image: url(../alta/assets/naruto_695_the_clash_by_x7rust_d822co1-pre.png);
+}
+
+.retangulo {
+    z-index: 1;
+    position: absolute;
+    width: 1444.49px;
+    height: 474.38px;
+    left: -70.11px;
+    top: 670.55px;
+    background: rgba(0, 0, 0, 0.7);
+    transform: rotate(-3.93deg);
+}
+
+.como_participar p {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 463px;
+    margin-top: 151px;
+    margin-left: 176px;
+}
+
+.como_participar h3 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 173px;
+}
+
+.naruto {
+    width: 1360px;
+    display: flex;
+    height: unset;
+}
+
+.sasuke {
+    position: absolute;
+    z-index: 2;
+    height: 568px;
+    margin-left: 552px;
+}
+
+.narutoI {
+    position: absolute;
+    z-index: 3;
+    height: 568px;
+    margin-left: 660px;
+    margin-bottom: 10px;
+}
+
+.sakura {
+    position: absolute;
+    z-index: 2;
+    height: 442px;
+    margin-left: 1013px;
+}
+
+.menu_proximos {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    width: 1360px;
+    height: 120px;
+    background-color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu_proximos h4 {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.menu_proximos img {
+    height: 60px;
+}
+
+.ao_vivo {
+    text-transform: uppercase;
+}
+
+.container_noticias {
+    width: 1360px;
+    height: 1025px;
+    background-color: #1E1C21;
+}
+
+.noticias_h5 {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+.article img {
+    height: 150px;
+}
+
+.card p {}
