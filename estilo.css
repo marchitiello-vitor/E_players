@@ -282,3 +282,62 @@ h2 {
 .dois {
     position: absolute;
 } */
+
+.container_footer {
+    background-color: #010101;
+    width: 1360px;
+    height: 301px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links_uteis {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.links_uteis a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.letter {
+    text-transform: capitalize;
+    color: white;
+}
+
+.redes img {
+    width: 60px;
+}
+
+.eplayer_footer {
+    width: 260px;
+}
+
+.email {
+    background-color: white;
+    width: 230px;
+}
+
+.email h2 {
+    color: #B8B3B3;
+}
+
+.cadastrar h2 {
+    color: white;
+}
+
+.cadastrar {
+    background-color: #001F70;
+    width: 130px;
+}
